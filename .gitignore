@@ -1,6 +1,8 @@
 # Ignore devcontainer
 .devcontainer/
 
+package-lock.json
+
 # General
 .DS_Store
 .AppleDouble
