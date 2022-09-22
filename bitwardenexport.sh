@@ -6,10 +6,6 @@ ENV_FILE=/environment.sh
 APPDATAFOLDER=/appdata
 EXPORTFOLDER="$APPDATAFOLDER"/export
 EXPORTFILE="$EXPORTFOLDER"/vaultbackup.json
-BACKUPFILE="$APPDATAFOLDER"/logs/bitwardenexport.log
-
-## Emptying log ##
-truncate -s 0 "$BACKUPFILE"
 
 ## Starting Backup ##
 echo "Starting backup of bitwarden. Current date & time is $(date)."
