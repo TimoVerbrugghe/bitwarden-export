@@ -6,6 +6,8 @@ echo "Setting up environment after container restart (folders, crontab file crea
 mkdir -p /appdata/export
 
 # create crontab file
+touch /crontab.txt
+truncate -s 0 /crontab.txt
 echo "$CRON_SCHEDULE /bitwardenexport.sh" >> /crontab.txt
 
 # Put crontab file in place
