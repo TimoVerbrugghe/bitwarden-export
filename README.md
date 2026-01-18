@@ -1,4 +1,8 @@
-# A docker container to export your bitwarden vault
+# Bitwarden-Export
+
+## A docker container to export your bitwarden vault
+
+![Bitwarden Export Docker](https://img.shields.io/github/actions/workflow/status/TimoVerbrugghe/bitwarden-export/bitwarden-export-docker.yaml?branch=main&label=bitwarden-export-docker&logo=githubactions&logoColor=white)
 
 This is a docker container that runs a bash script to export your vault & organization vaults to an UNENCRYPTED json file. I'm personally running this container as part of a kubernetes CronJob.
 
